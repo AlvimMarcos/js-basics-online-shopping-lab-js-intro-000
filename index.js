@@ -44,7 +44,7 @@ function total() {
   // write your code here
   let t=0
 
-  for (var i=0, l = cart.length; i<l; i++){
+  for (var i=0, l = cart.length; i++){
     for (var item in cart[i]){
       t +=cart[i][item]
     }
